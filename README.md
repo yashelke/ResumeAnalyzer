@@ -41,37 +41,7 @@ python -m spacy download en_core_web_sm
 streamlit run app.py
 ```
 
-## Deployment on Streamlit Cloud
 
-### Prerequisites
-- GitHub account
-- Streamlit account (sign up at https://streamlit.io/cloud)
-
-### Steps
-
-1. **Push code to GitHub**
-   - Create a GitHub repository
-   - Push your code to main branch
-
-2. **Deploy on Streamlit Cloud**
-   - Visit https://share.streamlit.io
-   - Sign in with GitHub
-   - Click "New app"
-   - Select your repository, branch, and main file (app.py)
-   - Click "Deploy"
-
-3. **Share Your App**
-   - Get the public URL from Streamlit Cloud
-   - Share with others!
-
-## Technology Stack
-
-- **Frontend**: Streamlit
-- **Backend**: Python 3.13
-- **NLP**: spaCy, NLTK, Sentence Transformers
-- **ML**: scikit-learn, PyTorch
-- **PDF Parsing**: PyPDF2
-- **Visualization**: Matplotlib
 
 ## Project Structure
 
